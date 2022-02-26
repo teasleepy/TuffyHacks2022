@@ -16,7 +16,10 @@ public class PickUp : MonoBehaviour
 
             //star will dissapear once touched by player
             //Destroy(gameObject);
-            transform.position = new Vector2(1, 6);
+
+            float randomNumber = Random.Range(-8, 8);
+
+            transform.position = new Vector2(randomNumber, 6);
 
             //reset velocity (of the falling star) to 0 
             rb = GetComponent<Rigidbody2D>();
