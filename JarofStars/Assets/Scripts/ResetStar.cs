@@ -15,9 +15,10 @@ public class ResetStar : MonoBehaviour
             //star will dissapear once touched by player
             //Destroy(gameObject);
 
-            float randomNumber = Random.Range(-8, 8);
+            float randomNumber_x= Random.Range(-8, 8);
+            
 
-            transform.position = new Vector2(randomNumber, 15);
+            transform.position = new Vector2(randomNumber_x, 15);
 
 
             //reset velocity (of the falling star) to 0 

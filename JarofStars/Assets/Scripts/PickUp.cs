@@ -14,12 +14,11 @@ public class PickUp : MonoBehaviour
         {
             manager.PickupItem();
 
-            //star will dissapear once touched by player
-            //Destroy(gameObject);
+            //star will be reset once touched by player
 
             float randomNumber = Random.Range(-8, 8);
 
-            transform.position = new Vector2(randomNumber, 6);
+            transform.position = new Vector2(randomNumber, 7);
 
             //reset velocity (of the falling star) to 0 
             rb = GetComponent<Rigidbody2D>();
