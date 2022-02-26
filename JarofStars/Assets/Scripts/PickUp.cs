@@ -13,7 +13,8 @@ public class PickUp : MonoBehaviour
             manager.PickupItem();
 
             //star will dissapear once touched by player
-            Destroy(gameObject);
+            //Destroy(gameObject);
+            transform.position = new Vector2(1, 6);
         }
     }
-}
+   }
