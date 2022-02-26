@@ -239,7 +239,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 145005041}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.67, y: -5.89, z: 0}
+  m_LocalPosition: {x: 0.78, y: -8.84, z: 0}
   m_LocalScale: {x: 21.4601, y: 1.0544096, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -361,6 +361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8217b680571ef33459eac3c5e22e7762, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rb: {fileID: 0}
 --- !u!50 &650385283
 Rigidbody2D:
   serializedVersion: 4
@@ -376,7 +377,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0.5
+  m_GravityScale: 0.1
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -394,6 +395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19ec46743a7bfcf4c8f3b0c097faa4b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rb: {fileID: 0}
 --- !u!58 &650385285
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -685,7 +687,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0.5
+  m_GravityScale: 0.1
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -719,6 +721,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8217b680571ef33459eac3c5e22e7762, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rb: {fileID: 0}
 --- !u!114 &866539188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -731,6 +734,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19ec46743a7bfcf4c8f3b0c097faa4b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rb: {fileID: 0}
 --- !u!1 &1417950375
 GameObject:
   m_ObjectHideFlags: 0
